@@ -1,0 +1,419 @@
+{
+    "services":
+    [
+        {
+            "name": "DirecTV NOW",
+            "id": "dtvnow",
+            "url": "https://directvnow.com"
+        },
+        {
+            "name": "SlingTV",
+            "id": "sling",
+            "url": "https://sling.com"
+        },
+        {
+            "name": "Hulu",
+            "id": "hulu",
+            "url": "https://hulu.com/live-tv"
+        },
+        {
+            "name": "Youtube TV",
+            "id": "youtube",
+            "url": "https://tv.youtube.com"
+        },
+        {
+            "name": "Playstation Vue",
+            "id": "vue",
+            "url": "https://vue.playstation.com"
+        },
+        {
+            "name": "Standalone App",
+            "note": "without tv subscription",
+            "id": "standalone"
+        }
+
+    ],
+    "channels":
+    [
+        {
+            "name": "A&E",
+            "id": "ae",
+            "dtv": true,
+            "sling": true,
+            "vue": false,
+            "hulu": false,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "ABC",
+            "id": "abc",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "AMC",
+            "id": "amc",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": false,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "Animal Planet",
+            "id": "animalplanet",
+            "dtv": true,
+            "sling": false,
+            "vue": true,
+            "hulu": false,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "BBC America",
+            "id": "bbcamerica",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": false,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "Bravo",
+            "id": "bravo",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "Cartoon Network",
+            "id": "cartoonnetwork",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "CBS",
+            "id": "cbs",
+            "dtv": true,
+            "sling": false,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": true
+        },
+        {
+            "name": "CNN",
+            "id": "cnn",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "Comedy Central",
+            "id": "comedycentral",
+            "dtv": true,
+            "sling": true,
+            "vue": false,
+            "hulu": false,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "CW",
+            "id": "cw",
+            "dtv": true,
+            "sling": false,
+            "vue": false,
+            "hulu": false,
+            "youtube": true,
+            "standalone": true
+        },
+        {
+            "name": "Discovery",
+            "id": "discovery",
+            "dtv": true,
+            "sling": false,
+            "vue": true,
+            "hulu": false,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "E",
+            "id": "e",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "ESPN",
+            "id": "espn",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "FOX",
+            "id": "fox",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "Freeform",
+            "id": "freeform",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "Fuse",
+            "id": "fuse",
+            "dtv": true,
+            "sling": false,
+            "vue": false,
+            "hulu": false,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "FX",
+            "id": "fx",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "FXX",
+            "id": "fxx",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "HGTV",
+            "id": "hgtv",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "History",
+            "id": "history",
+            "dtv": true,
+            "sling": true,
+            "vue": false,
+            "hulu": true,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "Investigation Discovery",
+            "id": "id",
+            "dtv": true,
+            "sling": false,
+            "vue": true,
+            "hulu": false,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "My9",
+            "id": "my9",
+            "dtv": false,
+            "sling": false,
+            "vue": true,
+            "hulu": true,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "National Geographic",
+            "id": "natgeo",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "NBC",
+            "id": "nbc",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "NBC Sports",
+            "id": "nbcsn",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "Olympic Channel",
+            "id": "olympic",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "Science",
+            "id": "science",
+            "dtv": true,
+            "sling": false,
+            "vue": true,
+            "hulu": false,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "Smithsonian",
+            "id": "smithsonian",
+            "dtv": false,
+            "sling": false,
+            "vue": false,
+            "hulu": false,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "Spike",
+            "id": "spike",
+            "dtv": true,
+            "sling": true,
+            "vue": false,
+            "hulu": false,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "SyFy",
+            "id": "syfy",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "TBS",
+            "id": "tbs",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "TLC",
+            "id": "tlc",
+            "dtv": true,
+            "sling": false,
+            "vue": true,
+            "hulu": false,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "TNT",
+            "id": "tnt",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "TruTV",
+            "id": "trutv",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "USA",
+            "id": "usa",
+            "dtv": true,
+            "sling": true,
+            "vue": true,
+            "hulu": true,
+            "youtube": true,
+            "standalone": false
+        },
+        {
+            "name": "ViceLand",
+            "id": "viceland",
+            "dtv": true,
+            "sling": true,
+            "vue": false,
+            "hulu": true,
+            "youtube": false,
+            "standalone": false
+        },
+        {
+            "name": "Weather Channel",
+            "id": "weather",
+            "dtv": true,
+            "sling": false,
+            "vue": false,
+            "hulu": false,
+            "youtube": false,
+            "standalone": false
+        }
+    ]
+}
